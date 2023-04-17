@@ -1,0 +1,44 @@
+.hero2-img {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  position: relative;
+}
+
+.hero2-img::before {
+  content: "";
+
+  background: url("https://www.cdotrends.com/sites/default/files/Coder.jpg");
+  background-size: cover;
+  background-position: cover top;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero2-heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero2-img h1 {
+  font-size: 2.4rem;
+}
+
+.hero2-img p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .hero2-img h1 {
+    font-size: 2rem;
+  }
+}
