@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import ImgValue from "./Images";
 
 const NavBar = () => {
   const [burgerClick, setBurgerClick] = useState(false);
@@ -16,7 +17,10 @@ const NavBar = () => {
   return (
     <div className={color ? "nav-header nav-header-bg" : "nav-header"}>
       <Link to={"/"}>
-        <h1>Portfolio</h1>
+        <div className="nav-logo">
+          <img width={100} src={ImgValue.mainLogo} alt="Logo" />
+          <h1>Saurabh Maurya</h1>
+        </div>
       </Link>
       <ul className={burgerClick ? "nav-manu active" : "nav-manu"}>
         <li className="nav-manu-item">

@@ -56,3 +56,14 @@
     cursor: pointer;
   }
 }
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
