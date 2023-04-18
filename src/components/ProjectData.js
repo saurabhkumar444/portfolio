@@ -4,7 +4,7 @@ const ProjectData = [
   {
     imgsrc: ImgValue.youtube,
     title: "Invideo Video Streaming",
-    text: "This is a video streaming App where you can enjoy videos. Used ReactJs, Javascript,  React Router, Tailwind CSS, Redux, Context API",
+    text: "This is a video streaming App where you can enjoy videos. Used ReactJs, Javascript,  React Router, Tailwind CSS, Redux, Context API.",
     view: "https://invideo-videostream.netlify.app/",
     source: "https://github.com/saurabhkumar444/InVideo-VideoStream-App",
   },
@@ -25,7 +25,7 @@ const ProjectData = [
   {
     imgsrc: ImgValue.netflix,
     title: "Netflix Clone",
-    text: "This is a Netflix clone UI. Used ReactJs, Javascript, React Router, Tailwind CSS, Redux, Context API",
+    text: "This is a Netflix clone UI. Used ReactJs, Javascript, React Router, Tailwind CSS, Redux, Context API.",
     view: "https://netflix-live.vercel.app",
     source: "https://github.com/saurabhkumar444/netflix",
   },
