@@ -25,13 +25,11 @@ const AboutContent = () => {
         <h1>Technologies</h1>
         <p>
           I'm familiar with HTML5, CSS3, JavaScript, ReactJS, Bootstrap, React
-          Native, Material UI and Web Hosting
+          Native, Redux, Material UI, MySQL, PostgreSQL and Web Hosting.
         </p>
         <div
           style={{
-            // backgroundColor: "red",
             display: "flex",
-            // flexDirection: "column",
             justifyContent: "space-between",
             flexWrap: "wrap",
             padding: "10px",
