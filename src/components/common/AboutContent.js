@@ -96,10 +96,10 @@ const AboutContent = () => {
       <div className="right">
         <div className="img-container">
           <div className="img-stack top">
-            <img className="img" src={ImgValue.homeHero} alt="l" />
+            <img className="img" src={ImgValue.homeHero} alt="logo" />
           </div>
           <div className="img-stack bottom">
-            <img className="img" src={ImgValue.homeHero} alt="l" />
+            <img className="img " src={ImgValue.progImg} alt="logo" />
           </div>
         </div>
       </div>
