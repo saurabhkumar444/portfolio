@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import "./Footer.css";
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -49,26 +50,30 @@ const Footer = () => {
             wfourwfp wedweffref orub
           </p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "white", marginRight: "2rem" }}
-            />
-            <FaInstagram
-              size={30}
-              style={{ color: "white", marginRight: "2rem" }}
-            />
-            <FaGithub
-              size={30}
-              style={{ color: "white", marginRight: "2rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "white", marginRight: "2rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "white", marginRight: "2rem" }}
-            />
+            <NavLink to={"https://www.instagram.com/saurabh.maurya___/"}>
+              <FaInstagram
+                size={30}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+            </NavLink>
+            <NavLink to={"https://github.com/saurabhkumar444/"}>
+              <FaGithub
+                size={30}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+            </NavLink>
+            <NavLink to={"https://www.linkedin.com/in/saurabhkumar-maurya/"}>
+              <FaLinkedin
+                size={30}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+            </NavLink>
+            {/* <NavLink to={"https://twitter.com/Maurya_Saurabh_"}>
+              <FaTwitter
+                size={30}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+            </NavLink> */}
           </div>
         </div>
       </div>
