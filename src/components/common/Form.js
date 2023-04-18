@@ -12,7 +12,16 @@ const Form = () => {
         <input type="text"></input>
         <label>Message</label>
         <textarea rows={6} placeholder="Type your message here..."></textarea>
-        <button className="btn">Submit</button>
+        <button
+          className="btn"
+          // onClick={() => {
+          //   alert(
+          //     "Due to some technical issue message not send, please connect the below number."
+          //   );
+          // }}
+        >
+          Submit
+        </button>
       </form>
     </div>
   );

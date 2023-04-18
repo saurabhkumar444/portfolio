@@ -7,7 +7,7 @@ const Work = () => {
   console.log(ProjectData);
   return (
     <div className="work-container">
-      <h1 className="project-heading">Project</h1>
+      <h1 className="project-heading">Projects</h1>
       <div className="project-container">
         {ProjectData.length &&
           ProjectData.map((item, index) => {

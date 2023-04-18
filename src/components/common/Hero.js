@@ -12,7 +12,7 @@ const Hero = ({ props, isHomeScreen = false }) => {
       <div className="hero-content">
         {isHomeScreen && (
           <div>
-            <p>HI, I'M A FRONTEND DEVELOPER</p>
+            <p>HI, I'M A SOFTWARE DEVELOPER</p>
             <h1>REACT DEVELOPER</h1>
             <div>
               <Link to="/project" className="btn">

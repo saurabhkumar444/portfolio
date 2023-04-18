@@ -43,12 +43,24 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <h4>ldjenodjnewl</h4>
-          <p>
-            this is mt ferou frufhwqeud frofh0wuhfdwe wfowufoqwed wfourwfpwedw
-            orufib fawfjhrbofu fhrwfouwb frofh0wuhfdwe fwfhrbfouwe wfgr ofhubwf
-            wfourwfp wedweffref orub
-          </p>
+          <h4>Connect With Me On</h4>
+          {/* <p>
+            <ul>
+              <li>
+                Experienced Frontend Developer with a demonstrated history of
+                working in the internet industry.
+              </li>
+              <li>
+                Professional Skills : HTML5, CSS3, JavaScript, React and
+                React-Native(android), Redux, Git, MySQL, PostgreSQL.
+              </li>
+              <li>Education: Bachelor of Engineering, Mumbai University.</li>
+            </ul> */}
+          {/* Experienced Frontend Developer with a demonstrated history of
+            working in the internet industry. Professional Skills : HTML5, CSS3,
+            JavaScript, React and React-Native(android), Redux, Git, MySQL,
+            PostgreSQL. Education: Bachelor of Engineering, Mumbai University. */}
+          {/* </p> */}
           <div className="social">
             <NavLink to={"https://www.instagram.com/saurabh.maurya___/"}>
               <FaInstagram
