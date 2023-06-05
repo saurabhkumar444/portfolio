@@ -23,15 +23,6 @@ const Footer = () => {
               <p>Mumbai, India</p>
             </div>
           </div>
-          <div className="phone">
-            <h4>
-              <FaPhone
-                size={20}
-                style={{ color: "white", marginRight: "2rem" }}
-              />
-              9004303699
-            </h4>
-          </div>
           <div className="email">
             <h4>
               <FaMailBulk
