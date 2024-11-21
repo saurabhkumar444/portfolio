@@ -5,7 +5,7 @@ const ProjectData = [
     imgsrc: ImgValue.youtube,
     title: "Invideo Video Streaming",
     text: "This is a video streaming App where you can enjoy videos. Used ReactJs, Javascript,  React Router, Tailwind CSS, Redux, Context API.",
-    view: "https://invideo-videostream.netlify.app/",
+    view: "https://invideo.netlify.app/",
     source: "https://github.com/saurabhkumar444/InVideo-VideoStream-App",
   },
   {
